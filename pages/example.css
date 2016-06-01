@@ -1,0 +1,44 @@
+:root {
+  --color: pink;
+}
+
+.postcss-nav-example {
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  & li { display: inline-block; }
+
+  & a {
+    background: var(--color);
+    border-radius: 3px;
+    display: block;
+    margin-right: 6px;
+    padding: 3px 9px;
+    text-decoration: none;
+  }
+}
+
+.the-postcss-class {
+  text-decoration: underline;
+}
+
+#logo {
+  position: fixed;
+  height: 120px;
+  right: 0px;
+  top: 0px;
+}
+
+.header-color {
+    color: #61dafb;
+    font-size: 32px;
+  }
+
+  .tagline {
+    font-size: 18px;
+    font-style: italic;
+
+  }
